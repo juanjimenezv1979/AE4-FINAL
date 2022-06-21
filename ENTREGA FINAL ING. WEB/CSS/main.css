@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+header{
+    height: 500px;
+}
+header nav{
+    height: 100px;
+    background:white ;
+    box-shadow:none ;
+}
+nav .brand-logo {
+    height:100px ;
+    left: 15%;
+    color:aqua;
+}
+nav brand-logo img{
+    width: 100px;
+}
+header nav ul{
+    height: 100px;
+    font-size: larger;
+    background-color: turquoise;
+}
+header ul a{
+    color: gray;
+}
+.header-main-pic{
+    width:100% ;
+    height: 400px;
+    background-image:url("../ASSETS/imagenes/JPG/logo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h4 {
+    align-items: center;
+}
